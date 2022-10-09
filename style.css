@@ -6,5 +6,74 @@
 }
 
 body {
-    background-color: ;
+    background-color: var(--navy-blue);
+}
+
+.title {
+    color: var(--blue-gray);
+    font-size: 4em;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.counter {
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    text-align: center;
+}
+
+.button img {
+    cursor: pointer;
+}
+
+.button .down {
+    transform: rotate(180deg);
+}
+
+::placeholder {
+    color: white;
+}
+
+#count {
+    color: white;
+    background-color: var(--blue-gray);
+    border-radius: 15px;
+    font-family: "Arial";
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em;
+    margin-left: 40%;
+    margin-right: 40%;
+    outline: none;
+}
+
+/* remove up/down arrows inside number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.github {
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+
+}
+
+a {
+    color: var(--blue-gray);
+    font-size: 1.25em;
+    font-family: "Arial";
+    font-weight: bold;
+    text-decoration: none;
 }

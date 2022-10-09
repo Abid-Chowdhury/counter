@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1 class="title">Counter</h1>
     
+    <div class="counter">
+        <a class="button">
+            <img class="up" src="arrow.png" alt="" onclick="increment()">
+        </a>
+        <input type="number" value="0" name="count" id="count" />
+        <a class="button">
+            <img class="down" src="arrow.png" alt="" onClick="decrement()">
+        </a>
+    </div>
+
+    <div class="github">
+        <a href="https://github.com/Abid-Chowdhury" target="_blank" ="github-link">Github.com/Abid-Chowdhury</a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
